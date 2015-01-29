@@ -10,7 +10,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		
-		IResult problem = new Problem9();
+		IResult problem = new Problem11();
 		problem.count();
 	}
 
