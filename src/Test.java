@@ -4,6 +4,10 @@ public class Test extends SuperClass {
 		System.out.print("sub context ");
 	}
 
+    /**
+     * main class
+     * @param argv
+     */
 	public static void main(String argv[]) {
 		SuperClass sc = new Test();
 		sc.printMe();
