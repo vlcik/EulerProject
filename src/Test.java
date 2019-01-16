@@ -10,14 +10,13 @@ public class Test extends SuperClass {
      * @param argv
      */
     public static void main(String argv[]) {
-        SuperClass sc = new Test();
-        sc.printMe();
+
     }
 
 }
 
-class SuperClass {
+class Feature1 {
     void printMe() {
-        System.out.print("super context first commit second third");
+        System.out.print("feature1 ");
     }
 }
