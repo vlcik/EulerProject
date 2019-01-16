@@ -16,3 +16,7 @@ class SuperClass {
 			System.out.print("super context ");
 		}
 	}
+
+	class TotoJeNovaSuperSuperClassa{
+
+    }
