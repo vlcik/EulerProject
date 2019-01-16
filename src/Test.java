@@ -1,4 +1,4 @@
-public class Test {
+public class Test extends SuperClass {
 
     public void printMe() {
         System.out.print("sub context ");
@@ -10,13 +10,14 @@ public class Test {
      * @param argv
      */
     public static void main(String argv[]) {
-
+        SuperClass sc = new Test();
+        sc.printMe();
     }
 
 }
 
-class Feature1 {
+class SuperClass {
     void printMe() {
-        System.out.print("feature1 ");
+        System.out.print("super context ");
     }
 }
