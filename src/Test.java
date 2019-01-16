@@ -1,26 +1,22 @@
 public class Test extends SuperClass {
 
-	public void printMe() {
-		System.out.print("sub context ");
-	}
+    public void printMe() {
+        System.out.print("sub context ");
+    }
 
     /**
      * main class
+     *
      * @param argv
      */
-	public static void main(String argv[]) {
-		SuperClass sc = new Test();
-		sc.printMe();
-	}
+    public static void main(String argv[]) {
+
+    }
 
 }
 
-class SuperClass {
-		void printMe() {
-			System.out.print("super context ");
-		}
-	}
-
-	class TotoJeNovaSuperSuperClassa{
-
+class Feature1 {
+    void printMe() {
+        System.out.print("feature1 ");
     }
+}
