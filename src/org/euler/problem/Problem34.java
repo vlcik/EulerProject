@@ -2,6 +2,7 @@ package org.euler.problem;
 
 import java.util.HashMap;
 import java.util.Map;
+import org.euler.IResult;
 
 public class Problem34 {
 
