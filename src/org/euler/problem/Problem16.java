@@ -1,12 +1,14 @@
 package org.euler.problem;
 
+import org.euler.IResult;
+
 import java.math.BigDecimal;
 
 
 public class Problem16 implements IResult {
 	
 	@Override
-	public void count() {
+	public void compute() {
 		
 		BigDecimal result = new BigDecimal(1);
 		for (int i = 1; i <= 1000; i++){

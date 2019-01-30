@@ -1,9 +1,11 @@
 package org.euler.problem;
 
+import org.euler.IResult;
+
 public class Problem4 implements IResult {
 	
 	@Override
-	public void count() {
+	public void compute() {
 		long result = 0;
 		
 		for (int k = 999; k > 100; k--){

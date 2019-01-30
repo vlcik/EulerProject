@@ -1,12 +1,14 @@
 package org.euler.problem;
 
+import org.euler.IResult;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Problem10 implements IResult {
 	
 	@Override
-	public void count() {
+	public void compute() {
 		
 		List<Long> primeNumbers = new ArrayList<>();
 		primeNumbers.add(2l);

@@ -1,9 +1,11 @@
 package org.euler.problem;
 
+import org.euler.IResult;
+
 public class Problem5 implements IResult {
 	
 	@Override
-	public void count() {
+	public void compute() {
 		long result = 0;
 		boolean iteration = true;
 		long number = 20;

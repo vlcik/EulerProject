@@ -1,10 +1,12 @@
 package org.euler.problem;
 
 
+import org.euler.IResult;
+
 public class Problem14 implements IResult {
 	
 	@Override
-	public void count() {
+	public void compute() {
 		
 		long longestChainNumber = 0;
 		long result = 1;

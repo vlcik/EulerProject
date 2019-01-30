@@ -1,12 +1,14 @@
 package org.euler.problem;
 
 
+import org.euler.IResult;
+
 public class Problem15 implements IResult {
 	
 	private static int count = 0;
 	
 	@Override
-	public void count() {
+	public void compute() {
 		
 		traceGrid(0, 0, 2);
 		

@@ -1,9 +1,11 @@
 package org.euler.problem;
 
+import org.euler.IResult;
+
 public class Problem3 implements IResult {
 	
 	@Override
-	public void count() {
+	public void compute() {
 		Long number = new Long(600851475143l);
 		long k = 2;
 		

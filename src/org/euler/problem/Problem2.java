@@ -1,9 +1,11 @@
 package org.euler.problem;
 
+import org.euler.IResult;
+
 public class Problem2 implements IResult {
 
 	@Override
-	public void count() {
+	public void compute() {
 		int sum = 0;
 		
 		Long firstPredecessor = 1l;

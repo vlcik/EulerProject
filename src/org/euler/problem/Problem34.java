@@ -1,12 +1,15 @@
 package org.euler.problem;
 
+import org.euler.IResult;
+
 import java.util.HashMap;
 import java.util.Map;
+
 
 public class Problem34 implements IResult {
 	
 	@Override
-	public void count() {
+	public void compute() {
 
 		long start = 24;//1000000000;
 		long max = 10000;//10000000000L;
