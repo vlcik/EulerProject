@@ -1,5 +1,7 @@
 package org.euler.problem;
 
+import org.euler.IResult;
+
 import java.util.HashMap;
 import java.util.Map;
 import org.euler.IResult;
