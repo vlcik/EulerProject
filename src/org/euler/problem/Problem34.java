@@ -4,6 +4,7 @@ import org.euler.IResult;
 
 import java.util.HashMap;
 import java.util.Map;
+import org.euler.IResult;
 
 
 public class Problem34 implements IResult {
