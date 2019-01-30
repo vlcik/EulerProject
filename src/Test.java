@@ -1,4 +1,4 @@
-public class Test extends SuperClass {
+public class Test {
 
     public void printMe() {
         System.out.print("sub context ups henten");
