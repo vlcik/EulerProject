@@ -1,7 +1,7 @@
 public class Test extends SuperClass {
 
     public void printMe() {
-        System.out.print("sub context ");
+        System.out.print("sub context haaha");
     }
 
     /**
@@ -18,6 +18,6 @@ public class Test extends SuperClass {
 
 class SuperClass {
     void printMe() {
-        System.out.print("super context ");
+        System.out.print("super context first commit second third");
     }
 }
