@@ -1,10 +1,7 @@
 package org.euler.problem;
 
-import org.euler.IResult;
+public class Problem2 {
 
-public class Problem2 implements IResult {
-
-	@Override
 	public void compute() {
 		int sum = 0;
 		
@@ -25,4 +22,7 @@ public class Problem2 implements IResult {
 		System.out.println(sum);
 	}
 
+	public static void main(String[] args) {
+		new Problem2().compute();
+	}
 }

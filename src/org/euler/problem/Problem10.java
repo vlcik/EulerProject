@@ -1,20 +1,17 @@
 package org.euler.problem;
 
-import org.euler.IResult;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class Problem10 implements IResult {
-	
-	@Override
+public class Problem10 {
+
 	public void compute() {
 		
 		List<Long> primeNumbers = new ArrayList<>();
-		primeNumbers.add(2l);
-		Long number = 3l;
+		primeNumbers.add(2L);
+		Long number = 3L;
 		boolean iteration = true;
-		Long sum = 2l;
+		Long sum = 2L;
 		while (iteration){
 			
 			boolean isPrimeNumber = true;
@@ -41,6 +38,10 @@ public class Problem10 implements IResult {
 		
 		System.out.println(sum);
 		
+	}
+
+	public static void main(String[] args) {
+		new Problem10().compute();
 	}
 
 }

@@ -1,27 +1,18 @@
 package org.euler.problem;
 
-import org.euler.IResult;
-
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 
-public class Problem92 implements IResult {
+public class Problem92 {
 
-    @Override
     public void compute() {
 
         int result = 0;
         for (int i = 2; i < 10000000; i++) {
             int tmp = i;
-            //System.out.print(tmp);
             while (tmp != 89 && tmp != 1){
                 tmp = getNext(tmp);
-                //System.out.print(" -> " + tmp);
-
-
             }
             if (tmp == 89){
                 result++;
@@ -33,7 +24,7 @@ public class Problem92 implements IResult {
     }
 
     private int getNext(int number){
-        return getSquareDigits(number).stream().reduce(0, (a, b) -> a + b);
+        return getSquareDigits(number).stream().reduce(0, Integer::sum);
     }
 
     private List<Integer> getSquareDigits(int number) {
@@ -48,5 +39,9 @@ public class Problem92 implements IResult {
 
     private int square(int number){
         return (int) Math.pow((double) number, 2d);
+    }
+
+    public static void main(String[] args) {
+        new Problem92().compute();
     }
 }
