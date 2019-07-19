@@ -1,6 +1,6 @@
 package org.euler;
 
-import org.euler.problem.Problem92;
+import org.euler.problem.Problem19;
 
 public class Main {
 
@@ -9,7 +9,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		
-		IResult problem = new Problem92();
+		IResult problem = new Problem19();
 		problem.compute();
 	}
 
