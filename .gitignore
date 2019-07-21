@@ -2,3 +2,8 @@
 *.project
 *.prefs
 *.class
+.idea/EulerProject.iml
+.idea/encodings.xml
+.idea/uiDesigner.xml
+.idea/workspace.xml
+EulerProject.iml
